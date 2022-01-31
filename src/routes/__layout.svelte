@@ -4,6 +4,13 @@
   import "$lib/styles/global.css";
 </script>
 
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+  />
+</head>
+
 <div class="main">
   <header>
     <Title title="Title goes here!" />
@@ -17,7 +24,7 @@
   </main>
 
   <footer>
-    <p class="footer-text">Copyright 2022 Big2Tiny</p>
+    <p class="footer-text">Copyright 2022 @ Big2Tiny</p>
   </footer>
 </div>
 
@@ -55,7 +62,7 @@
     /* lock to bottom of screen */
     position: fixed;
     bottom: 10px;
-    width: 95%;
+    width: 97%;
   }
   .footer-text {
     display: flex;

@@ -3,6 +3,15 @@
     <li>
       <a href="/"> Home </a>
     </li>
+    <li>
+      <a href="/trump"> Trump </a>
+    </li>
+    <li>
+      <a href="/gematria"> Gematria </a>
+    </li>
+    <li>
+      <a href="/bible"> Bible </a>
+    </li>
   </ul>
 </nav>
 
@@ -21,6 +30,7 @@
     background-size: cover;
   }
   li {
+    margin-top: 15px;
     display: inline-block;
     padding: 0.3rem;
     /* card */
